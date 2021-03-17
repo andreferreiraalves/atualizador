@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Grid } from './styles'
 import OptionsList from '../OptionsList';
+import ProgrammerData from '../ProgrammerData';
 import Nav from '../Nav';
 
 const Layout: React.FC = () => {
@@ -9,6 +10,7 @@ const Layout: React.FC = () => {
         <Grid>
             <Nav />
             <OptionsList />
+            <ProgrammerData />
         </Grid>
     );
 }

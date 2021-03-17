@@ -3,6 +3,7 @@ import React from 'react';
 import { Container } from './styles';
 
 import CheckBox from '../CheckBox';
+import Button from '../Button';
 
 const OptionsList: React.FC = () => {
     return (
@@ -12,6 +13,11 @@ const OptionsList: React.FC = () => {
             <CheckBox caption="Inicia Versão" />
             <CheckBox caption="Apaga Procedures" />
             <CheckBox caption="Apaga Trigger" />
+
+            <div className="buttons">
+                <Button caption="Preview" icon="preview" />
+                <Button caption="Atualizar" />
+            </div>
         </Container>
     );
 }
