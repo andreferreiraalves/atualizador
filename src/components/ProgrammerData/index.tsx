@@ -2,19 +2,31 @@ import React from 'react';
 
 import { Container } from './styles';
 import Input from '../Input';
+import VersionRelease from '../VersionRelease';
+import Script from '../Script';
 
 const ProgrammerData: React.FC = () => {
     return (
         <Container>
-            <div>
+            <div className="alinhamento">
                 <Input caption="Programador" pwidth={264} />
                 <Input caption="Caminho Projeto" pwidth={427} />
             </div>
 
-            <div>
-                <Input caption="Versão" pwidth={130} />
-                <Input caption="Data" pwidth={170} type="date" />
-                <Input caption="Release" pwidth={84} />
+            <div className="alinhamento">
+                <VersionRelease title="Atual" />
+                <VersionRelease title="Força de Vendas" />
+            </div>
+
+            <div className="alinhamento">
+                <VersionRelease title="Versão Integrações" />
+
+            </div>
+
+            <div className="alinhamento">
+                <Script title="Script" />
+
+                <Script title="Visualização" disableField={true} />
             </div>
         </Container>
     );

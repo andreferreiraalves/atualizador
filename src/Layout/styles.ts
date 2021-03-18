@@ -8,7 +8,7 @@ import styled from "styled-components";
 export const Grid = styled.div`
     display: grid;
 
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 60px auto;
 
     grid-template-areas: 

@@ -10,6 +10,7 @@ export default createGlobalStyle`
 
     html, body, #root {
         height: 100%;
+        background-color: #F4F4F4;
     }
 
     *, button, input {
@@ -21,5 +22,6 @@ export default createGlobalStyle`
     :root {
         --primary: #FF7600;
         --secundary: #015D62;
+        --disabled: rgba(196, 196, 196, 0.5);
     }
 `;

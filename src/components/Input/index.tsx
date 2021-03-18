@@ -16,8 +16,8 @@ const Input: React.FC<Props> = ({
     return (
         <Container
             pwidth={pwidth}>
-            <label htmlFor="id-input">{caption}</label>
-            <input type={type ?? "text"} id="id-input" />
+            <label>{caption}</label>
+            <input type={type ?? "text"} />
         </Container>
     );
 }

@@ -3,9 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
     grid-area: PD;
 
-    div {
+    .alinhamento {
         display: flex;
         margin: 10px;
+
+        div {
+            margin-right: 10px
+        }
     }
 
     Input {
